@@ -1,36 +1,93 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# searchable_app
+
+This project is an image search application built using Weaviate, JavaScript, and TypeScript. It allows users to upload an image and find similar images from a dataset using vector embeddings.
+
+## Features
+
+- **Image Upload:** Users can upload a Dog image to search for similar images.
+- **Similarity Search:** Utilizes Weaviate to find and display images similar to the uploaded image based on vector embeddings.
+- **User Interface:** A clean and intuitive interface built with Next.js and TailwindCSS.
+- **Backend:** Node.js.
+
+- ## Demo
+  ![Image Search Demo](<[https://example.com/path/to/demo-image.png](https://drive.google.com/file/d/1oooeNnKVB0LjrGUGz3VqrdotgR3gpKSf/view?usp=drive_link)>)
+
+You can also watch a [demo video](<[https://example.com/path/to/demo-video.mp4](https://drive.google.com/file/d/18v5k-FAmuEnXeQ0bs0o294hBrpi6ruUG/view?usp=drive_link)>) of the application.
 
 ## Getting Started
 
-First, run the development server:
+### Prerequisites
+
+- Next.js
+- TailwindCss
+- Node.js
+- Docker
+- Weaviate instance (local or cloud)
+
+### Installation
+
+1. **Clone the Repository:**
+
+````bash
+git clone https://github.com/yourusername/image-search-app.git
+cd image-search-app
+
+
+2. **Install Dependencies:**
 
 ```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+npm install
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+2. **Install Backend Dependencies:**
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+```bash
+cd Backend npm install
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+```bash
+npm install
 
-## Learn More
+3. **Install Backend Dependencies:**
 
-To learn more about Next.js, take a look at the following resources:
+```bash
+cd Backend npm install
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+```bash
+npm install
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+```bash
+curl -o docker-compose.yml "https://configuration.weaviate.io/v2/docker-compose/docker-compose.yml?generative_anyscale=false&generative_aws=false&generative_cohere=false&generative_mistral=false&generative_octoai=false&generative_ollama=false&generative_openai=false&generative_palm=false&image_neural_model=pytorch-resnet50&media_type=image&modules=modules&ref2vec_centroid=false&reranker_cohere=false&reranker_transformers=false&runtime=docker-compose&weaviate_version=v1.25.4&weaviate_volume=host-binding"
 
-## Deploy on Vercel
+```bash
+docker-compose up -d
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+4. **Configure Backend:**
+
+```bash
+Add .env file and configure the NODE_PORT to your port of choice the default port is 3001
+
+
+5. **Configure Frontend:**
+
+From your terminal navigate to the frontend code
+
+6. **Configure Backend:**
+
+```bash
+Add .env file and configure the NEXT_PUBLIC_NEXT_SERVER_URL url for the Backend the default is http://localhost:3001
+
+7. **Start frontend code:**
+
+```bash
+npm run start
+
+## Technologies Used
+- **/Frontend:** React components used in the application.
+- **/Backend:** Next.js pages for the application.
+
+## Contact
+- For any questions or inquiries, please contact me at noelmdala2017@gmail.com.
+
+
+
+````
