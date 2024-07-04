@@ -10,7 +10,7 @@ This project is an image search application built using Weaviate, JavaScript, an
 - **Backend:** Node.js.
 
 - ## Demo
-- App iimage https://drive.google.com/file/d/1oooeNnKVB0LjrGUGz3VqrdotgR3gpKSf/view?usp=drive_link
+- App image https://drive.google.com/file/d/1oooeNnKVB0LjrGUGz3VqrdotgR3gpKSf/view?usp=drive_link
 
 -  Demo video of the app https://drive.google.com/file/d/18v5k-FAmuEnXeQ0bs0o294hBrpi6ruUG/view?usp=drive_link
 
