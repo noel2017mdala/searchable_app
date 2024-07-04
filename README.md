@@ -11,8 +11,8 @@ This project is an image search application built using Weaviate, JavaScript, an
 
 - ## Demo
   ![Image Search Demo](<[https://example.com/path/to/demo-image.png](https://drive.google.com/file/d/1oooeNnKVB0LjrGUGz3VqrdotgR3gpKSf/view?usp=drive_link)>)
-
-You can also watch a [demo video](<[https://example.com/path/to/demo-video.mp4](https://drive.google.com/file/d/18v5k-FAmuEnXeQ0bs0o294hBrpi6ruUG/view?usp=drive_link)>) of the application.
+  
+  [demo video](<[https://example.com/path/to/demo-video.mp4](https://drive.google.com/file/d/18v5k-FAmuEnXeQ0bs0o294hBrpi6ruUG/view?usp=drive_link)>).
 
 ## Getting Started
 
