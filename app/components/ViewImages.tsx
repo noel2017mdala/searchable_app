@@ -15,7 +15,7 @@ const ViewImages = () => {
                 Your Fetched Dog Gallery
               </h1>
               <p className="text-gray-600">
-                Here are the adorable look-alikes we've found based on your
+                Here are the adorable look-alikes we&apos;ve found based on your
                 uploaded photo. Enjoy browsing through these paw-some matches!
               </p>
             </div>

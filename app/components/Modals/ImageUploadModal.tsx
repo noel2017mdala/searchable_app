@@ -209,8 +209,8 @@ const ImageUploadModal = () => {
           <div className="">
             <h2 className="text-2xl font-bold mb-4">Tell Us About Your Dog</h2>
             <p className="text-gray-600 mb-4">
-              We'd love to know more about your furry friend. Please fill out
-              the information below:
+              We&apos;d love to know more about your furry friend. Please fill
+              out the information below:
             </p>
           </div>
 
@@ -304,7 +304,9 @@ const ImageUploadModal = () => {
   if (steps === STEPS.UPLOAD) {
     bodyContent = (
       <div>
-        <h2 className="text-2xl font-bold mb-4">Upload Your Dog's Photo</h2>
+        <h2 className="text-2xl font-bold mb-4">
+          Upload Your Dog&apos;s Photo
+        </h2>
         <p className="text-gray-600 mb-4">
           Finally, please upload a photo of your dog to complete the process:
         </p>
@@ -377,7 +379,7 @@ const ImageUploadModal = () => {
           : steps === STEPS.DOG_INFO
           ? "Tell Us About Your Dog"
           : steps === STEPS.UPLOAD
-          ? "Upload Your Dog's Photo"
+          ? "Upload Your Dogs Photo"
           : "🐕‍🦺"
       }
       actionLabel={actionLabel}

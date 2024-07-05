@@ -27,7 +27,7 @@ const LandingPage = () => {
         <main className="flex flex-col-reverse md:flex-row items-center justify-center">
           <div>
             <h1 className="text-4xl font-bold mt-6">
-              Search for Your Dog's Look-Alikes
+              Search for Your Dog&apos;s Look-Alikes
             </h1>
             <p className="text-gray-600 mt-2 max-w-lg">
               A dog is the only thing on earth that loves you more than you love

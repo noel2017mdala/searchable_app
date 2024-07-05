@@ -15,7 +15,7 @@ const lstat = util.promisify(fs.lstat);
 
 const __filename = fileURLToPath(import.meta.url);
 const __dirname = dirname(__filename);
-const port = process.env.NODE_PORT;
+const port = process.env.NODE_PORT || 3001;
 
 const app = express();
 app.use(cors());

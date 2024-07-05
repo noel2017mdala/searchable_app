@@ -97,7 +97,7 @@ const ImageSearchModal = () => {
   let bodyContent = (
     <div>
       <p className="text-gray-600 mb-4">
-        Ready to find your dog's long-lost twin? Upload a photo and let the
+        Ready to find your dog&apos;s long-lost twin? Upload a photo and let the
         tail-wagging fun begin!
       </p>
 
@@ -160,7 +160,7 @@ const ImageSearchModal = () => {
       isOpen={imageSearch.isOpen}
       onClose={imageSearch.onClose}
       onSubmit={handleUpload}
-      title="Upload Your Dog's Photo 🐶"
+      title="Upload Your Dogs Photo 🐶"
       actionLabel={actionLabel}
       body={bodyContent}
       disabled={loader}
